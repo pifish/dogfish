@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 #-*- encoding: utf-8 -*-
+import os
+import commands
 import subprocess
 
 print "Isso levará vários minutos, aguarde..."
