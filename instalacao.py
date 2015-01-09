@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 #-*- encoding: utf-8 -*-
-import os
-import commands
 import subprocess
-import sys
 
 print "Isso levará vários minutos, aguarde..."
 subprocess.call("apt-get -y update", shell=True)
