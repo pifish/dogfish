@@ -18,13 +18,13 @@ subprocess.call("git clone git://github.com/pifish/dogfish", shell=True)
 
 c=commands.getoutput("pwd")
 
-subprocess.call("apt-get install unzip", shell=True)
-subprocess.call("wget http://www.instructables.com/files/orig/FZA/XXFV/HXLMF54M/FZAXXFVHXLMF54M.zip", shell=True)
-subprocess.call("unzip FZAXXFVHXLMF54M.zip", shell=True)
+#subprocess.call("apt-get install unzip", shell=True)
+#subprocess.call("wget http://www.instructables.com/files/orig/FZA/XXFV/HXLMF54M/FZAXXFVHXLMF54M.zip", shell=True)
+#subprocess.call("unzip FZAXXFVHXLMF54M.zip", shell=True)
 
-moveWeb="mv "+str(c)+"/Web/ /var/www/web"
+moveWeb="mv "+str(c)+"/dogfish/Web/ /var/www/web"
 subprocess.call(moveWeb, shell=True)
-subprocess.call("rm -rf FZAXXFVHXLMF54M.zip", shell=True)
+#subprocess.call("rm -rf FZAXXFVHXLMF54M.zip", shell=True)
 
 subprocess.call("apt-get -y install make", shell=True)
 subprocess.call("apt-get -y install python-setuptools", shell=True)
