@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 #-*- encoding: utf-8 -*-
 import time
-import os
-import commands
-import subprocess
-import StringIO
-import math
-import sys
-from datetime import datetime
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BOARD)
