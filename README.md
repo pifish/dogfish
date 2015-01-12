@@ -21,4 +21,4 @@ como também, abrir a interface web através do endereço de sua Raspberrypi
 
 http://ipDaSuaPlaca/web
 
-fazendo uso das gpios.
+fazendo uso interativo das gpios podendo ligar e desligar equipamentos remotamente pela internet.
