@@ -23,9 +23,15 @@ como também, abrir a interface web através do endereço de sua Raspberrypi
 
 http://ipDaSuaPlaca/web
 
-fazendo uso interativo das gpios podendo ligar e desligar equipamentos remotamente.
+Fazendo uso interativo das gpios podendo ligar e desligar equipamentos remotamente.
 
 
 Para baixar o projeto completo caso você já tenho instalado o github faça o seguinte comando:
 
 git clone git://github.com/pifish/dogfish.git
+
+Caso queiram baixar individualmente também está disponível no link
+
+https://drive.google.com/folderview?id=0B_IfW8hnL1y6TFJrVjNZT3VvbXM&usp=sharing
+
+
