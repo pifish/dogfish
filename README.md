@@ -16,7 +16,7 @@ Após feito vá a uma linha de terminal, como root execute o script com o seguin
 
 python instalacao.py
 
-este comando fará a instalaçãos de todas as dependências para a correta utilização 
+Este comando fará a instalaçãos de todas as dependências para a correta utilização 
 das bibliotecas de comunicação com o shield e sua Raspberry. No final, você poderá
 executar os scripts exemplos contidos neste projeto, criar novos scripts/programas 
 como também, abrir a interface web através do endereço de sua Raspberrypi
